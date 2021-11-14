@@ -3,7 +3,8 @@ const express=require('express');
 const Products=require('../../Models/Products');
 
 
-const route=express.Router._ok();
+const route=express._.Router();
+
 
 route.get('/',async (req,res)=>{
     try{
